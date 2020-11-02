@@ -4,6 +4,9 @@ def say_hello(name = "Ruby Programmer")
   puts "Hello #{name}"
 end
 
+
+say_hello("Kent Beck")
+
 describe "say_hello" do
 
   it 'accepts an argument of a name and prints out Hello with that Name' do
